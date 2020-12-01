@@ -12,6 +12,7 @@ namespace PonDedovanje
             Console.WriteLine($"Monitor {nameof(samsung)} ima diagonalo {samsung.Price}");
 
             Vehicle voz = new Vehicle(2, 20);
+            Vehicle voz2 = new Vehicle(4, 80);
             Digger bager = new Digger(4, 185, true);
             Console.WriteLine(bager.ToString());
             Console.WriteLine($"Vozilo {nameof(bager)} ima maksimalno hitrost {bager.MaxSpeed}");
